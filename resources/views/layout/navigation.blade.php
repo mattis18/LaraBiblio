@@ -28,20 +28,20 @@
                     <span>Gestions des prêts  </span>                  
                  </a> 
 
-                 {{-- <a class="w3-bar-item w3-button w3-hover-black" href="{{ route('historique') }}">
+                <a class="w3-bar-item w3-button w3-hover-black" href="{{ route('historique') }}">
                     <img class="img_menu" src="{{ asset('/images/historique.png') }}" width="50px" alt="Cliquez ici pour voir l'historique"/>
                     <span>Hsitoire de...  </span>                  
                  </a> 
---}}
+
                  <a class="w3-bar-item w3-button w3-hover-black" href="{{ route('evenements') }}">
                     <img class="img_menu" src="{{ asset('/images/evenements.png') }}" width="50px" alt="Cliquez ici pour voir les événements"/>
                     <span>Evénements  </span>                  
                  </a> 
 
-                {{-- <a class="w3-bar-item w3-button w3-hover-black" href="{{ route('commandes') }}">
+                <a class="w3-bar-item w3-button w3-hover-black" href="{{ route('commandes') }}">
                     <img class="img_menu" src="{{ asset('/images/commandes.png') }}" width="50px" alt="Cliquez ici pour voir les commandes"/>
                     <span>Commandes  </span>                  
                  </a> 
-               --}}
+               
           
         </nav>

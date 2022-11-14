@@ -18,3 +18,5 @@ Route::get('/ouvrages', 'WelcomeController@ouvrages')->name('ouvrages');
 Route::get('/inscrits', 'WelcomeController@inscrits')->name('inscrits');
 Route::get('/prets', 'WelcomeController@pret')->name('prets');
 Route::get('/evenements', 'WelcomeController@evenements')->name('evenements');
+Route::get('/historique', 'WelcomeController@historique')->name('historique');
+Route::get('/commandes', 'WelcomeController@commandes')->name('commandes');

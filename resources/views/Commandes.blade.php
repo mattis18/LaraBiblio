@@ -5,7 +5,7 @@
 @section('content')
 
 
-            <h1 class="w3-text-teal">Les ouvrages</h1>
+            <h1 class="w3-text-teal">Commandes</h1>
             <p>
                 Le contenu
             </p>

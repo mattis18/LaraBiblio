@@ -27,8 +27,12 @@ class WelcomeController extends Controller
     {
         return view('evenements');
     }
-    public function commande()
+    public function Commandes()
     {
-        return view('commande');
+        return view('Commandes');
+    }
+    public function historique()
+    {
+        return view('historique');
     }
 }
